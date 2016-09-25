@@ -16,10 +16,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 3. Java's standard library for sorting `Array`s uses (as of Oracle Java 7)
   a **"dual-pivot"** variant of Quicksort due to Yaroslavskiy et al. (2009).
-
   + a. *(5pts)* Research Yaroslavskiy's algorithm and **describe** how
-    it works.  **Discuss** the pros/cons of this variant vs. original
-    Quicksort.  How does its behaviour differ from Quicksort on 
+    it works.  How does its behaviour differ from Quicksort on 
     **pre-sorted** or partially pre-sorted data?
 
     (There are several kinds of dual-pivot algorithms; focus on the one
@@ -30,3 +28,5 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
   + b. *(5pts)* Present your own **pseudocode** implementation
     of Yaroslavskiy's Quicksort.
+
+4. *(2pts)*
