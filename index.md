@@ -15,4 +15,16 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
   `[ 12, 16, 7, 11, 19, 3, 6, 10, 5, 8, 14, 9, 15 ]`
 
-3. *(4 pts)* 
+3. Java's standard library for sorting `Array`s uses (as of Oracle Java 7)
+  a **"dual-pivot"** variant of Quicksort due to Yaroslavskiy et al. (2009).
+  + a. *(5pts)* Research Yaroslavskiy's algorithm and **describe** how
+    it works.  **Discuss** the pros/cons of this variant vs. original
+    Quicksort.  How does its behaviour differ from Quicksort on 
+    **pre-sorted** or partially pre-sorted data?
+    (There are several kinds of dual-pivot algorithms; focus on the one
+    by Yaroslavskiy. The Java library also adds a few optimisations
+    that you can ignore.)
+    If you found code or a reference somewhere that helped you,
+    include a link to it as a citation.
+  + b. *(5pts)* Present your own **pseudocode** implementation
+    of Yaroslavskiy's Quicksort.
