@@ -19,13 +19,11 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
   + a. *(5pts)* Research Yaroslavskiy's algorithm and **describe** how
     it works.  How does its behaviour differ from Quicksort on 
     **pre-sorted** or partially pre-sorted data?
-
     (There are several kinds of dual-pivot algorithms; focus on the one
     by Yaroslavskiy. The Java library also adds a few optimisations
     that you can ignore.)
     If you found code or a reference somewhere that helped you,
     include a link to it as a citation.
-
   + b. *(5pts)* Present your own **pseudocode** implementation
     of Yaroslavskiy's Quicksort.
 
