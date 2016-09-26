@@ -26,5 +26,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
     include a link to it as a citation.
   + b. *(5pts)* Present your own **pseudocode** implementation
     of Yaroslavskiy's Quicksort.
+    It should be your own work (i.e., not cut-and-paste, you need to
+    understand how it works), but if you found code that helped you,
+    include a link to it.
 
 4. *(2pts)*
