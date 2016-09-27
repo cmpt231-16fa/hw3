@@ -16,7 +16,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 3. *(3pts)* Now that you've sorted the same array using insertion sort, merge sort, and heap sort, **count** the number of *operations* in each:
   + For *insertion sort*, count the number of **assignments** when a value is written into the array.
-  + For *merge sort*, count the number of **copies**, including *both* when elements are copied to temporary arrays and when they are copied back.
+  + For *merge sort*, count the number of **copies** performed, including *both* when elements are copied to temporary arrays and when they are copied back.
   + For *heap sort*, count the number of *swaps* (each swap counts as one operation).
 
 4. Java's standard library for sorting `Array`s uses (as of Oracle Java 7)
