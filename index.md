@@ -8,21 +8,17 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 {% include policies.md %}
 
 ### HW3 (20pts)
-1. *(2pts)* Assuming all distinct keys, what are all the possible locations
+1. *(3pts)* Assuming all distinct keys, what are all the possible locations
   for the **smallest** element in a **max heap**? Where do they lie in the
   **array** representation?
 
-2. *(5pts)* Demonstrate **heap sort** on the following input: <br/>
-  `[ 12, 16, 7, 11, 19, 3, 6, 10, 5, 8, 14, 9, 15 ]`
+2. *(4pts)* Demonstrate **heap sort** on the following input (same as in HW1 and HW2): <br/>
+  `[ 35, 50, 44, 61, 17, 75, 23, 9 ]`
 
-3. *(3pts)* Show the state of the max-heap-based **priority queue** *A*
-  after each of the following operations (starting from an empty queue):
-
-            1. insert(A, 'C', 3)
-            2. insert(A, 'D', 4)
-            3. insert(A, 'E', 5)
-            4. insert(A, 'E', 5)
-
+3. *(3pts)* Now that you've sorted the same array using insertion sort, merge sort, and heap sort, **count** the number of *operations* in each:
+  + For *insertion sort*, count the number of **assignments** when a value is written into the array.
+  + For *merge sort*, count the number of **copies** performed, including *both* when elements are copied to temporary arrays and when they are copied back.
+  + For *heap sort*, count the number of **swaps** (each swap counts as one operation).
 
 4. Java's standard library for sorting `Array`s uses (as of Oracle Java 7)
   a **"dual-pivot"** variant of Quicksort due to Yaroslavskiy et al. (2009).
