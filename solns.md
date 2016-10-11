@@ -51,6 +51,12 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 + (4a) *(5pts)* **Describe** Yaroslavskiy's algorithm:
 
+  Yaroslavskiy's original paper can be found online
+  (although I wasn't able to find a legal copy).
+
+  Brad Lyon has made [a nice visualisation](https://learnforeverlearn.com/yaro_web/)
+  of Yaroslavskiy's dual-pivot.
+
   In the original formulation, the two pivots are chosen to be the
   first and last elements of the (sub-)array.  For fully pre-sorted
   input, this still gives worst-case \`O(n^2)\` behaviour, as all the
