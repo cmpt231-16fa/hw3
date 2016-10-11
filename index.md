@@ -7,7 +7,8 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 {% include policies.md %}
 
-### HW3 (20pts)
+### HW3 (20pts) [(solutions)](solns)
+
 1. *(3pts)* Assuming all distinct keys, what are all the possible locations
   for the **smallest** element in a **max heap**? Where do they lie in the
   **array** representation?
